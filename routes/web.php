@@ -16,4 +16,4 @@ Route::get('/', function () {
 });
 
 Route::get('/sections', 'SectionsController@index');
-Route::get('/students', 'StudentsController@index');
+Route::get('/students', 'SectionsController@filter');
